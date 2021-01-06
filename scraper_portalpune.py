@@ -464,7 +464,7 @@ def main():
         # Set scraping parameters
         base_url = 'https://www.portalpune.com/'
         robust = True
-        webdriverpath = "C:\\Users\\Calogero\\Documents\\GitHub\\job_portal_scrapers\\chromedriver.exe"
+        webdriverpath = "C:\\Users\\Calogero\\Documents\\GitHub\\jop_portal_scraper_heavy_js\\chromedriver.exe"
         
         # Set up a web driver
         driver = set_driver(webdriverpath, False)
@@ -476,9 +476,9 @@ def main():
         verification = True
         
         # Enter folders for HTML files, data and final output
-        listing_textfile_path = "C:\\Users\\Calogero\\Documents\\GitHub\\job_portal_scrapers\\data\\single_listing_htmls\\"
-        dpath = "C:\\Users\\Calogero\\Documents\\GitHub\\job_portal_scrapers\\data\\listing_files\\"
-        export_path = 'C:\\Users\\Calogero\\Documents\GitHub\\job_portal_scrapers\\data\\daily_scraping\\'
+        listing_textfile_path = "C:\\Users\\Calogero\\Documents\\GitHub\\jop_portal_scraper_heavy_js\\data\\single_listing_htmls\\"
+        dpath = "C:\\Users\\Calogero\\Documents\\GitHub\\jop_portal_scraper_heavy_js\\data\\listing_files\\"
+        export_path = 'C:\\Users\\Calogero\\Documents\GitHub\\jop_portal_scraper_heavy_js\\data\\daily_scraping\\'
     
         time_folder = listing_textfile_path + now_str
         os.mkdir(time_folder)
